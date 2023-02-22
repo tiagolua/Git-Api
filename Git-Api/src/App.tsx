@@ -1,8 +1,12 @@
+import './assets/styles/custom.scss';
+import 'assets/styles/custom.scss'
+import Navbar from 'Navbar';
+
 import './App.css';
 
 function App() {
   return (
-    <h1> git</h1>
+    <Navbar />    
   );
 }
 
